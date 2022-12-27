@@ -104,14 +104,18 @@ header .img-bag {
     height: 20px;
 }
 
-
+.banner{
+    margin: 150px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .banner .img {
     background-image: url(./assets/Group\ 18.svg);
     background-size: contain;
     width: 419px;
     height: 280px;
-    margin-top: 61px;
+    padding: 50px 0 0 30px;
 }
 
 .banner .img p {
@@ -122,11 +126,16 @@ header .img-bag {
 .banner .img h3 {
     font: 600 22px 'Poppins';
     color: #151515;
+    margin: 8px 0 150px;
 }
 
 .banner .img .btn {
     font: 700 15px 'Poppins';
     color: #151515;
+    border: 2px solid #92C064;
+    border-radius: 12px;
+    width:165px ;
+    padding: 12px 16px;
 }
 
 .products .wrapper-grid {
